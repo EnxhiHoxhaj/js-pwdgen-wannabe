@@ -6,19 +6,19 @@ document.getElementById ("form").innerHTML = titolo;
 
 //inserimento del nome
 
-let nomeUtente = "Enxhi";
+let nomeUtente = prompt ("indica nome");
 
 document.getElementById ("nome").innerHTML = "Inserisci il tuo nome: " + nomeUtente
 
 //inserimento del cognome
 
-let cognomeUtente = "Hoxhaj";
+let cognomeUtente = prompt ("indica cognome");
 
 document.getElementById ("cognome").innerHTML = "Inserisci il tuo cognome: " + cognomeUtente
 
 //inserimento del colore preferito
 
-let colorePreferito = "Verde";
+let colorePreferito = prompt ("indica colore");
 
 document.getElementById ("colore_p").innerHTML = "Qual'è il tuo colore preferito?: " + colorePreferito
 
@@ -28,4 +28,8 @@ const numventitre = 23;
 
 //formulazione della password
 
-document.getElementById ("password").innerHTML = `La password che ti è stata assegnata è la seguente: ${nomeUtente}${cognomeUtente}${colorePreferito}${numventitre}`;
+let risultato = nomeUtente+cognomeUtente+colorePreferito+numventitre;
+
+console.log( "La password che ti è stata assegnata è la seguente:" + risultato);
+
+document.getElementById ("password").innerHTML = "La password che ti è stata assegnata è la seguente:" + risultato;
