@@ -5,20 +5,32 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
     padding-top: 50px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #container {
-    width: 400px;
-    min-height: 150px;
+    margin: auto;
+    width: 70%;
     padding: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
-    background-color:bisque;
-    border: solid rgb(101, 104, 105);
+    background-color: #f7ede3;
+    border: solid #84a59e 3px;
     border-radius: 20px;
-    align-content:center
+    align-content:center;
+}
+
+#form {
+    font-size: 35px;
+    color: #f5bd60;
+}
+
+.campi {
+    margin: 20px 0;
+    color: #84a59e ;
+}
+
+#password {
+    font-size: 30px;
 }

@@ -1,5 +1,9 @@
 //assegnazione di una password
 
+let titolo = "Form per generare la password adatta a te... speriamo sia sicura!";
+
+document.getElementById ("form").innerHTML = titolo;
+
 //inserimento del nome
 
 let nomeUtente = "Enxhi";
